@@ -62,10 +62,9 @@ nav .chegg {
     color: #222;
     font-size: 16px;
 }
-
-.toggle_button {
+.toggle_button{
     position: absolute;
-    top: 22px;
+    top:22px;
     left: 1rem;
     display: none;
     flex-direction: column;
@@ -74,8 +73,7 @@ nav .chegg {
     height: 21px;
 
 }
-
-.toggle_button .bar {
+.toggle_button .bar{
     height: 3px;
     width: 100%;
     background-color: #EB7100;
@@ -93,8 +91,7 @@ nav .chegg {
     color: #fff;
     padding: 4% 6%;
 }
-
-.responsive_1 {
+.responsive_1{
     display: none;
 }
 
@@ -229,24 +226,13 @@ form button:hover {
 
 .container_3 .card p {
     font-size: 16px;
-    padding: 10px 5%;
+    padding: 0 5%;
 }
 
-.container_3 .card a {
-    padding: 0 4%;
+.container_3 .card h4 {
+    padding: 4%;
     color: #00799E;
     font-size: 16px;
-}
-
-.container_3 h4 {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-
-}
-.container_3 svg{
-    color:#00799E;
 }
 
 
@@ -275,8 +261,7 @@ form button:hover {
     color: #EB7100;
     padding: 1% 1%;
 }
-
-.container_4 h3 {
+.container_4 h3{
     font-size: 24px;
 }
 
@@ -293,9 +278,8 @@ form button:hover {
     text-align: right;
 
 }
-
-.responsive_2 {
-    display: none;
+.responsie_2{
+    display:none;
 }
 
 .container_5 h1 {
@@ -352,26 +336,15 @@ form button:hover {
 
 .png_card p {
     font-size: 16px;
-    padding: 20px 5%;
+    padding: 0 5%;
 }
 
-.png_card a {
-    padding: 0 4%;
+.png_card h4 {
+    padding: 4%;
     color: #00799E;
     font-size: 16px;
 
 
-}
-
-.container_6 h4 {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-}
-
-.container_6 svg {
-    color: #00799E;
 }
 
 .container_6 h3 {
@@ -429,7 +402,7 @@ form button:hover {
 
 
 @media(max-width:768px) {
-    .toggle_button {
+    .toggle_button{
         display: flex;
     }
 
@@ -437,23 +410,22 @@ form button:hover {
         width: 60px;
         height: 30px;
         margin-top: 15px;
-        margin-left: 20px;
-
+        margin-left:20px;
+        
     }
-
     .mid_link ul li,
     .end_link ul li {
         display: none;
 
     }
 
-
+    
 
     .container {
         background: url(bg.webp);
         background-size: cover;
     }
-
+    
 
 
     .container h1 {
@@ -475,47 +447,14 @@ form button:hover {
 
 
     form button {
-        padding: 2px 12px;
-        font-size: 16px;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        color: #FFFFFF;
-
+        padding: 1px 4px;
+        font-size: 12px;
     }
-
-    .container {
-        height: 320px;
-        background: url(responsive_1.webp);
-        background-size: cover;
-        object-fit: cover;
+    .container{
+        height: 220px;
+        /* background: url(); */
     }
-
-    .responsive_1 {
-        height: 180px;
-        width: 100%;
-        color: black;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
-
-    .responsive_1 h1 {
-        margin: 0 0 12px 0;
-    }
-
-    .responsive_1 form {
-        margin: 12px 0 0 0;
-        width: 96%;
-    }
-
-    .responsive_1 form button {
-
-        width: 90px;
-    }
-
-
-    .container .content {
+    .container .content{
         display: none;
     }
 
@@ -527,13 +466,6 @@ form button:hover {
         display: flex;
 
     }
-
-    .container2 p {
-        font-size: 16px;
-        font-weight: 500;
-
-    }
-
 
     .container2 .content {
         flex-direction: column;
@@ -551,16 +483,18 @@ form button:hover {
     }
 
     .form .btn {
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        background: #EB7100;
         font-size: 14px;
-        width: 80px;
+        font-weight: 200;
+        color: #fff;
+        border-radius: 28px;
         border: none;
-        padding: 2%;
+        margin: 1%;
     }
 
     .container_3 h1 {
         padding: 3% 0 1% 0;
-        font-size: 32px;
+        font-size: 22px;
     }
 
     .container_3 p {
@@ -570,7 +504,7 @@ form button:hover {
     }
 
     .card_container {
-        height: 1770px;
+        height: 1160px;
         display: flex;
         flex-direction: column;
 
@@ -578,38 +512,30 @@ form button:hover {
     }
 
     .container_3 .card {
-        height: 560px;
-        width: 66%;
-        border: 1px solid gray;
+        height: 380px;
+        width: 80%;
     }
 
     .container_3 .card img {
-        height: 340px;
+        height: 180px;
         width: 100%;
     }
 
     .container_3 .card h3 {
-        font-size: 26px;
+        font-size: 22px;
     }
 
     .container_3 .card p {
         font-size: 14px;
-        margin-bottom: 10px;
     }
 
-    .container_3 .card a {
+    .container_3 .card h4 {
         font-size: 14px;
-        color: #00799E;
     }
 
     .container_4 .btn {
         font-size: 12px;
 
-    }
-
-    .container_4 h3 {
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-size: 18px;
     }
 
     .container_4 h1 {
@@ -627,28 +553,6 @@ form button:hover {
 
     }
 
-
-    .content_5 {
-        display: none;
-    }
-
-    .responsive_2 {
-        height: 160px;
-        width: 100%;
-        color: black;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-
-    }
-
-    .responsive_2 h1 {
-        margin: 2%;
-    }
-
-
     .container_5 h1 {
         font-size: 30px;
     }
@@ -661,19 +565,19 @@ form button:hover {
 
     .container_6 h1 {
         justify-content: center;
-        font-size: 30px;
+        font-size: 22px;
         margin: 2%;
     }
 
     .container_6 .card_container {
         display: flex;
-        height: 2150px;
+        height: 1450px;
         text-align: center;
     }
 
     .container_6 .card_container .png_card {
-        height: 540px;
-        width: 76%;
+        height: 450px;
+        width: 96%;
         border: 1px solid black;
         border-radius: 8px;
         margin: 2%;
@@ -682,24 +586,22 @@ form button:hover {
     }
 
     .png_card img {
-        height: 280px;
+        height: 170px;
         width: 100%;
 
     }
 
     .png_card h1 {
-        font-size: 32px;
+        font-size: 20px;
 
     }
 
     .png_card p {
-        font-size: 16px;
-        margin-bottom: 10px;
+        font-size: 14px;
     }
 
-    .png_card h4 a {
+    .png_card h4 {
         font-size: 14px;
-        color: #00799E;
     }
 
     .container_8 {
