@@ -483,14 +483,14 @@ form button:hover {
     }
 
     .container {
-        height: 320px;
+        height: 280px;
         background: url(responsive_1.webp);
         background-size: cover;
         object-fit: cover;
     }
 
     .responsive_1 {
-        height: 180px;
+        height: 210px;
         width: 100%;
         color: black;
         display: flex;
@@ -579,7 +579,7 @@ form button:hover {
 
     .container_3 .card {
         height: 560px;
-        width: 66%;
+        width: 96%;
         border: 1px solid gray;
     }
 
@@ -673,7 +673,7 @@ form button:hover {
 
     .container_6 .card_container .png_card {
         height: 540px;
-        width: 76%;
+        width: 96%;
         border: 1px solid black;
         border-radius: 8px;
         margin: 2%;
